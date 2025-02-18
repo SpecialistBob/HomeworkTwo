@@ -1,0 +1,89 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 115%;
+}
+
+header{
+    background-color: #b4adad;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+nav{
+    background-color: b4adad;
+    display: inline-block; /*Part 3 of HW*/
+    width: 100%;             /*Part 3 of HW*/
+    padding: 30px;
+    text-align: center;
+}
+img{
+    width: 30%;
+    padding: 10px;
+}
+nav img{
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+main{
+    background-color: #fae100;
+    font-size: 100%;
+}
+
+footer{
+    background-color: green;
+}
+
+/* li{                          Part 2 of HW
+    display: inline-block;
+    width: auto;
+} */
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0044ff;
+}
+
+p{
+    line-height: normal;
+}
+
+.container{         /*Part 5 of HW*/
+    display: grid;
+    grid-template-columns: 20% 20% 20%;    
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.container img{       /*Part 6 of HW*/
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 200px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;    
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;    
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
